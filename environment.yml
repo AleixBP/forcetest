@@ -1,0 +1,15 @@
+name: fenimage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fenics=2019.1.0
+  - matplotlib
+  - scipy
+  - jupyter
+  - mshr
+  - scikit-image
+  - statsmodels
+  - pip
+  - pip:
+      - hippylib==3.1.0
